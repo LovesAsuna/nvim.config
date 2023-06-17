@@ -43,4 +43,7 @@ require("lazy").setup({
       },
     },
   },
+  git = {
+    url_format = "https://ghproxy.com/https://github.com/%s.git",
+  },
 })
