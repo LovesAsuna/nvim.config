@@ -50,4 +50,7 @@ require("lazy").setup({
       },
     },
   },
+  git = {
+    url_format = "https://ghp.ci//https://github.com/%s.git",
+  },
 })
